@@ -1,0 +1,296 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins;
+}
+
+.ccnavbg
+{
+    background-color:transparent !important;
+    width:100%;
+    height: auto;
+    padding: 10px;
+    position: fixed;
+}
+
+.ccnavcontainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ccnavlogo
+{
+  width:52px;
+  height:52px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  color:#CE0505;
+  text-align:center;
+  font-size: 33px;
+  font-weight: 600;
+  text-decoration: none;
+  visibility: hidden !important;
+}
+
+.ccnavbtn button
+{
+    color:#FFFFFF;
+    background-color:transparent;
+    font-size:16px;
+}
+
+.ccnavloginbtn
+{
+    border-color:transparent;
+    margin-right:15px;
+}
+
+
+.ccnavaccountbtn
+{
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    padding:8px;
+}
+.ccnavuserbtn{
+    width: 52px;
+    height: 52px;
+    background-color: #FFFFFF !important;
+    border-radius: 50%;
+    color: #CE0505 !important;
+    text-align: center;
+    
+    font-weight: 600;
+    border: none;
+}
+.ccnavuserbtn2{
+    width: 52px !important;
+    height: 52px;
+    background-color: #CE0505 !important;
+    border-radius: 50%;
+    color: #FFFFFF !important;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    border: none;
+}
+.ccfa-user{
+    font-size: 20px;
+}
+.ccfa-user2{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.ccusername{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.ccuseremail{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 15px;
+}
+.ccdeatil_img{
+    width: 100%;
+    height:450px;
+}
+.ccdeatil_head{
+    font-size: 30px;
+    font-weight: 600;
+    color:rgb(43, 43, 125);
+}
+
+.cchaed_detail{
+    margin-top:20px;
+    font-weight: 600;
+    color:rgb(43, 43, 125);
+}
+.ccabout_detail{
+    font-weight: 600;
+    color:rgb(43, 43, 125);
+}
+.cccloseBtn{
+    position: fixed;
+    left:395px;
+    top:5px;
+    border:none;
+    background-color: #CE0505;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight: 600;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.ccloginInput{
+    padding:5px;
+    margin:10px 40px;
+    width:300px;
+}
+.ccmodelheading{
+    text-align: center;
+}
+.ccsubmitBtn{
+    border:none;
+    background-color: #CE0505;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.ccLogOutBtn{
+    border:none;
+    background-color: #CE0505;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    margin:auto;
+    position: relative;
+    left: 100px;
+}
+.ccloginBTn{
+    width:300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ccsignInBtn{
+   display: flex;
+   justify-content:center;
+   margin:10px 0;
+}
+.ccor{
+    text-align: center;
+    font-weight: 600;
+}
+.ccfacebookStyle{
+    background-color:#4267B2 ;
+    color:white;
+    border:none;
+    padding: 5px 10px;
+    width:200px;
+    height: 40px;
+    margin-top: 20px;
+}
+.ccgoogleStyle{
+    width:200px;
+    height: 40px;
+    margin-top: 20px;
+}
+.ccgoogleFB{
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+}
+.ccplaceOrder{
+    background-color: #CE0505;
+    color: #FFFFFF;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.ccplaceOrder:hover{
+    background-color: #c10606;
+}
+.ccRdetail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.ccMenuHead{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.cccloseMenuBtn{
+    border:none;
+    background-color: #CE0505;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight: 600;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -40px;
+}
+.ccmenuBox{
+    width:420px;
+    height:200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 10px;
+    padding: 10px;
+
+}
+.ccmenu{
+    text-align: center;
+    font-weight: 600;
+    color:rgb(43, 43, 125);
+}
+.ccmenuThumb{
+    width:160px;
+    height: 160px;
+    border-radius: 10px;
+}
+.ccmenuDisply{
+    display: flex;
+}
+.ccmenuContent{
+    padding-left:20px;
+}
+.ccitemName{
+    font-weight: 600;
+    font-size: 16px;
+    color:rgb(43, 43, 125);
+}
+.ccitemDescription{
+    font-size: 12px;
+}
+.cccost{
+    color:rgb(43, 43, 125);
+    font-weight: 600;
+}
+.ccveg{
+    accent-color:green;
+    margin-left: 10px;
+}
+
+.ccnonveg{
+    accent-color:green;
+    margin-left: 10px;
+}
+.ccveg-noveg{
+    display:flex;
+    flex-direction: column;
+    font-size:12px;
+}
+.ccAddBtn{
+    border:none;
+    background-color: #CE0505;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.cctotalprice{
+    display: flex;
+    justify-content: space-between;
+}
+.ccpayNowBtn{
+    border:none;
+    background-color: #CE0505;
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

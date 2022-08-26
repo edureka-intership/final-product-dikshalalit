@@ -1,0 +1,345 @@
+*{
+    margin:0;
+	padding:0;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+
+/* -----<<<<<<<<<<<Banner Section>>>>>>>>>>>------ */
+
+    /* -----Banner image------ */
+        .banner-img
+        {
+            background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0), #4f0707),
+                            url("../assets/wallpaper.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 480px;
+            width:100%;
+        }
+
+
+    /* -----Nav Buttons------ */
+        .bannerbtn
+        {
+            display:flex;
+            justify-content:flex-end;
+            position:relative;
+            top:17px;
+            margin-bottom:35px;
+            visibility: hidden;
+        }
+
+    /* -----login------ */    
+        .loginbtn
+        {
+            color:#FFFFFF;
+            background-color:transparent;
+            font-size:16px;
+            border-color:transparent;
+            width: 100px;
+            height: 46px;
+        }
+
+    /* -----account------ */
+        .accountbtn
+        {
+            color:#FFFFFF;
+            background-color:transparent;
+            font-size:16px;
+            border: 1px solid #FFFFFF;
+            border-radius:3px;
+            width: 200px;
+            height: 46px;
+        }
+
+    /* -----logo------ */
+        .logo
+        {
+            width:130px;
+            height:130px;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+            color:#EB2929;
+            text-align:center;
+            font-size: 80px;
+            font-weight: 600;
+            font-size: 80px;
+            
+        }
+
+    /* -----banner content------ */
+        .bcontent
+        {
+            font-size:36px;
+            color: white;
+            font-weight:600;
+            margin-top: 22px;
+            text-align: center;
+            margin-bottom:38px;
+        }
+
+    /* -----LOcation Btn------ */
+        .locationbtn
+        {
+            width:760px;
+            margin: auto;
+            display: flex;
+            
+        }
+
+        .locationDropdown
+        {
+            width: 245px;
+            height: 60px;
+            border: none;
+            margin-right:21px;
+            color: #636F88;
+            font-size:15px;
+            padding:0 10px;
+        }
+
+        .restsearch
+        {
+            width: 477px;
+            height: 60px;
+            background-color: white;
+            border: none;
+            color: #636F88;
+            font-size:15px;
+            padding-left:10px;
+        }
+
+    
+/* -----<<<<<<<<<<<Card Section>>>>>>>>>>>------ */
+
+    /* -----Quick Search------ */
+        .search
+        {
+            width:96%;
+            margin:auto;
+        }
+
+        .quick
+        {
+            font-size:30px;
+            color: #192F60;
+            font-weight:bold;
+            margin-top:48px;     
+        }
+
+        .discover
+        {
+            font-size:18px;
+            color: #8C96AB;
+            margin-bottom:33px;
+            
+        }
+
+
+    /* -----CARD------ */
+        .card
+        {
+            width: 360px;
+            height: 160px;
+            background-color: rgb(255, 255, 255);
+            margin-bottom:26px;
+            border:none;
+            box-shadow: 0px 3px 6px #00000029;
+            border-radius: 0%;
+        }
+
+        .card-content
+        {
+            display: flex;
+           
+        }
+
+        .card-img
+        {
+            width:160px;
+            height:160px;
+            border:none;
+            border-radius: 0;
+        }
+
+        .cardhead
+        {
+            color:#192F60;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top:25px;
+            margin-bottom:4px;
+            
+        }
+
+        .cardtext
+        {
+            color:#8C96AB;
+            font-size: 14px;
+        }
+
+
+
+/* -----<<<<<<<<<<<(Media 1200)>>>>>>>>>>>------ */
+
+@media(max-width:1200px)
+{
+    .search
+        {
+            width:100%;
+        }
+
+    .card
+        {
+            width: 300px;
+        }
+    
+}
+
+
+/* -----<<<<<<<<<<<(Media 1024)>>>>>>>>>>>------ */
+
+@media(max-width:1024px)
+{
+    .search
+        {
+            width:100%;
+        }
+    .bcontent
+        {
+            font-size:26px;
+        }
+    .logo
+        {
+            width:90px;
+            height:90px;
+            font-size:42px;
+            text-align:center;
+            padding-top:10px;
+        
+        }
+    .locationbtn
+        {
+            display:block;
+            width:370px;
+            margin:auto;
+        }
+
+    .locationDropdown
+        {
+            width: 364px;
+            height: 60px;
+            margin-bottom:25px;
+        }
+
+    .restsearch
+        {
+            width: 364px;
+            height: 60px;
+        }
+    .loginbtn
+        {
+            font-size:14px;
+            position:relative;
+            bottom:5px;
+        }
+
+    .accountbtn
+        {
+            font-size:14px;
+            width: 150px;
+            height: 36px;
+            
+        } 
+   
+}
+
+
+/* -----<<<<<<<<<<<(Media 768)>>>>>>>>>>>------ */
+
+@media(max-width:768px)
+{
+    .bannerbtn
+        {
+            display:none;
+        }
+    .logo
+        {    
+            position:relative;
+            top:59px;
+        }
+    .bcontent
+        {
+            margin-top:81px;
+        }
+    .quick
+        {
+            font-size:24px;          
+        }
+
+    .discover
+        {
+            font-size:14px;              
+        }
+    .card
+        {
+            width: 360px;
+        } 
+
+}
+
+
+
+/* -----<<<<<<<<<<<(Media 480)>>>>>>>>>>>------ */
+
+@media(max-width:480px)
+{
+
+    .card
+        {
+            width: 300px;
+        } 
+        .locationbtn
+        {
+            display:block;
+            width:270px;
+            margin:auto;
+        }
+
+    .locationDropdown
+        {
+            width: 270px;
+            height: 50px;           
+        }
+
+    .restsearch
+        {
+            width: 270px;
+            height: 50px;
+        }
+     
+}
+
+.ultag{
+    background-color: rgb(255, 255, 255);
+}
+.ultag li{
+    list-style-type: none;
+}
+
+.ultag li a{
+    text-decoration: none;
+    color:rgb(132, 132, 132);
+}
+
+
+
+
+
+
+
+
+

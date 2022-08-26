@@ -1,0 +1,299 @@
+* {
+    font-family: Poppins;
+}
+
+
+
+/* -----Heading----- */
+
+.container
+{
+    width:75%;
+    margin: auto;
+}
+
+.heading
+{
+    font-size:36px;
+    font-weight:bold;
+    font-family:poppins;
+    color: #192F60;
+    margin:2% 0;
+}
+
+/* -----Heading End----- */
+
+
+
+
+/* -----section----- */
+
+.contain
+{
+    width:75%;
+    display:flex;
+    margin: auto; 
+    
+}
+
+/* -----Filter----- */
+
+.filter
+{   
+    width: 260px;
+    height: 682px;
+    background-color:white;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-bottom:100px;
+}
+
+
+.filter div
+{
+    margin-left:27px;
+}
+
+
+.filterhead
+{
+    font-family:Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color:#192F60;
+    margin-top:17px;
+    margin-bottom:10px;
+}
+
+
+.location
+{
+    font-family:Poppins;
+    font-size: 14px;
+    color:#192F60;
+    margin-top:10px;
+    margin-bottom:11px;
+    font-weight:500;
+}
+
+
+.select
+{
+    padding:5px;
+    width: 208px;
+    height: 35px;
+    border-color: #8C96AB;
+    color:#8C96AB;
+    border-radius: 3px;
+
+}
+
+
+.Cuisine
+{
+    font-family:Poppins;
+    font-size: 14px;
+    color:#192F60;
+    margin-top:22px;
+    margin-bottom:15px;
+    font-weight:500;
+}
+
+
+.check
+{
+    margin-left:27px;
+    width: 18px;
+    height: 18px;
+   accent-color: #3A5075;
+    margin-bottom:14px;
+   
+    
+}
+
+input .check
+{
+    border:2px solid red;
+}
+
+
+.checkhead
+{
+    font-family:Poppins;
+    font-size: 14px;
+    color:#8C96AB;
+    margin-left:11px;
+    position: relative;
+    top:-5px;
+}
+
+
+.cost
+{
+    font-family:Poppins;
+    font-size: 14px;
+    color:#192F60;
+    margin-bottom:15px;
+    margin-top:14px;
+    font-weight:500;
+}
+
+.radiobtn
+{
+    margin-left:27px;
+    width: 18px;
+    height: 18px;
+    accent-color:#3A5075;
+    margin-bottom:14px
+}
+
+.radiohead
+{
+    font-family:Poppins;
+    font-size: 14px;
+    color:#8C96AB;
+    margin-left:11px;
+    position: relative;
+    top:-5px;
+
+}
+
+.sort
+{
+    font-family:Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color:#192F60;
+    margin-top:17px;
+    margin-bottom:15px;
+}
+
+/* -----Filter End----- */
+
+
+
+/* -----part----- */
+.part
+{
+    width: 794px;
+    height: 291px;
+    background-color:white;
+    margin-bottom:34px;
+    margin-left:45px;
+    box-shadow: 0px 3px 6px #00000029;  
+}
+
+
+.part1
+{
+    width:724px;
+    height:266px;
+    margin:auto;
+    position: relative;
+    top:25px;
+}
+
+.partimg
+{
+    border-radius:20px;
+    width: 120px;
+    height: 120px;
+}
+
+.bigchill span
+{
+    margin-left:41px;
+    font-family:poppins;
+}
+
+.line
+{
+    width:724px;
+    border-bottom: 1px solid #DEDFE5;
+    margin-top:31px;
+    margin-bottom:26px;
+}
+
+.bakery700
+{
+    font-family:Poppins;
+    font-size:16px;
+    color:#192F60;
+   
+}
+
+.costtwo
+{
+    width:176px;
+    font-family:Poppins;
+    font-size:16px;
+    color:#636F88;
+}
+
+.Chead1
+{
+    font-family:Poppins;
+    font-weight: 600;
+    font-size: 30px;
+    color:#192F60;
+
+}
+
+
+.Chead2
+{
+    font-family:Poppins;
+    font-weight:500;
+    font-size: 16px;
+    color:#192F60;
+    margin: 5px 0;   
+}
+
+.Chead3
+{
+    font-family:Poppins;
+    font-size: 16px;
+    color:#192F60;   
+}
+
+.Pagenation
+{
+    width: 794px;
+    margin-left:45px;
+    display: flex;
+    justify-content:center;
+   
+  
+}
+
+.page
+{
+    text-decoration:none !important;
+    width:36px;
+    height:36px;
+    border: 1px solid #8C96AB;
+    padding: 0 10px;
+    border-radius:7px;
+    color:#8C96AB;
+    font-size:20px;
+    font-family:poppins;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.page1
+{
+    
+    width:36px;
+    height:36px;
+    border: 1px solid #8C96AB;
+    padding: 0 13px;
+    border-radius:7px;
+    color:#ffffff;
+    background-color:#8C96AB;
+    font-size:20px;
+    font-family:poppins;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+/* -----part End----- */

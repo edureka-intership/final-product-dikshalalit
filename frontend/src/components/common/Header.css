@@ -1,0 +1,295 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins;
+}
+
+.navbg
+{
+    background-color: #CE0505 !important;
+    width:100%;
+    height: auto;
+    padding: 10px;
+}
+
+.navcontainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo
+{
+  width:52px;
+  height:52px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  color:#CE0505;
+  text-align:center;
+  font-size: 33px;
+  font-weight: 600;
+  text-decoration: none;
+  visibility: visible !important;
+}
+
+.navbtn button
+{
+    color:#FFFFFF;
+    background-color:transparent;
+    font-size:16px;
+}
+
+.navloginbtn
+{
+    border-color:transparent;
+    margin-right:15px;
+}
+
+
+.navaccountbtn
+{
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    padding:8px;
+}
+.navuserbtn{
+    width: 52px;
+    height: 52px;
+    background-color: #FFFFFF !important;
+    border-radius: 50%;
+    color: #CE0505 !important;
+    text-align: center;
+    
+    font-weight: 600;
+    border: none;
+}
+.navuserbtn2{
+    width: 52px !important;
+    height: 52px;
+    background-color: #CE0505 !important;
+    border-radius: 50%;
+    color: #FFFFFF !important;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    border: none;
+}
+.fa-user{
+    font-size: 20px;
+}
+.fa-user2{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.username{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.useremail{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 15px;
+}
+.deatil_img{
+    width: 100%;
+    height:450px;
+}
+.deatil_head{
+    font-size: 30px;
+    font-weight: 600;
+    color:rgb(43, 43, 125);
+}
+
+.haed_detail{
+    margin-top:20px;
+    font-weight: 600;
+    color:rgb(43, 43, 125);
+}
+.about_detail{
+    font-weight: 600;
+    color:rgb(43, 43, 125);
+}
+.closeBtn{
+    position: fixed;
+    left:395px;
+    top:5px;
+    border:none;
+    background-color: #CE0505;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight: 600;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.loginInput{
+    padding:5px;
+    margin:10px 40px;
+    width:300px;
+}
+.modelheading{
+    text-align: center;
+}
+.submitBtn{
+    border:none;
+    background-color: #CE0505;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.LogOutBtn{
+    border:none;
+    background-color: #CE0505;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    margin:auto;
+    position: relative;
+    left: 100px;
+}
+.loginBTn{
+    width:300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.signInBtn{
+   display: flex;
+   justify-content:center;
+   margin:10px 0;
+}
+.or{
+    text-align: center;
+    font-weight: 600;
+}
+.facebookStyle{
+    background-color:#4267B2 ;
+    color:white;
+    border:none;
+    padding: 5px 10px;
+    width:200px;
+    height: 40px;
+    margin-top: 20px;
+}
+.googleStyle{
+    width:200px;
+    height: 40px;
+    margin-top: 20px;
+}
+.googleFB{
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+}
+.placeOrder{
+    background-color: #CE0505;
+    color: #FFFFFF;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.placeOrder:hover{
+    background-color: #c10606;
+}
+.Rdetail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.MenuHead{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.closeMenuBtn{
+    border:none;
+    background-color: #CE0505;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight: 600;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -40px;
+}
+.menuBox{
+    width:420px;
+    height:200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 10px;
+    padding: 10px;
+
+}
+.menu{
+    text-align: center;
+    font-weight: 600;
+    color:rgb(43, 43, 125);
+}
+.menuThumb{
+    width:160px;
+    height: 160px;
+    border-radius: 10px;
+}
+.menuDisply{
+    display: flex;
+}
+.menuContent{
+    padding-left:20px;
+}
+.itemName{
+    font-weight: 600;
+    font-size: 16px;
+    color:rgb(43, 43, 125);
+}
+.itemDescription{
+    font-size: 12px;
+}
+.cost{
+    color:rgb(43, 43, 125);
+    font-weight: 600;
+}
+.veg{
+    accent-color:green;
+    margin-left: 10px;
+}
+
+.nonveg{
+    accent-color:green;
+    margin-left: 10px;
+}
+.veg-noveg{
+    display:flex;
+    flex-direction: column;
+    font-size:12px;
+}
+.AddBtn{
+    border:none;
+    background-color: #CE0505;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.totalprice{
+    display: flex;
+    justify-content: space-between;
+}
+.payNowBtn{
+    border:none;
+    background-color: #CE0505;
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
